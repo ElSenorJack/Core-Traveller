@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1304987264}
-  m_IndirectSpecularColor: {r: 0.317534, g: 0.3069752, b: 0.4610958, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1165783616}
   m_Lens:
-    FieldOfView: 115
+    FieldOfView: 90
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -771,7 +771,7 @@ Transform:
   m_GameObject: {fileID: 595809933}
   serializedVersion: 2
   m_LocalRotation: {x: 0.24493507, y: 0.0189005, z: -0.004791116, w: 0.9693434}
-  m_LocalPosition: {x: -89.14196, y: 6.292874, z: -47.053726}
+  m_LocalPosition: {x: -86.20254, y: 9.661837, z: -56.721012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1089,9 +1089,9 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.55
-  m_ScreenY: 0.55
-  m_CameraDistance: 10
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_CameraDistance: 20
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -1540,7 +1540,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2715373700089998727, guid: 0e68baac71a920944818288a6c06b8ad, type: 3}
       propertyPath: m_Name
-      value: EnolaHetero
+      value: SusLookingShip
       objectReference: {fileID: 0}
     - target: {fileID: 3656944743533711854, guid: 0e68baac71a920944818288a6c06b8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1647,7 +1647,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 115
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1674,7 +1674,7 @@ Transform:
   m_GameObject: {fileID: 2013170583}
   serializedVersion: 2
   m_LocalRotation: {x: 0.24493507, y: 0.0189005, z: -0.004791116, w: 0.9693434}
-  m_LocalPosition: {x: -89.14196, y: 6.292874, z: -47.053726}
+  m_LocalPosition: {x: -86.20254, y: 9.661837, z: -56.721012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
